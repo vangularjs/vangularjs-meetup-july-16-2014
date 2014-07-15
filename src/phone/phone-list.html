@@ -1,0 +1,35 @@
+<h1 class="col-sm-8 col-ms-9 col-sm-offset-4 col-md-offset-3">
+  Angular Phone Catalogue
+</h1>
+
+<div class="col-sm-4 col-md-3">
+  <!--Sidebar content-->
+  <form role="form" class="well">
+    <div class="form-group">
+      <label for="query">Search:</label>
+      <input type="search" class="form-control" id="query" name="query" ng-model="query">
+    </div>
+    <div class="form-group">
+      <label for="order">Sort by:</label>
+      <select class="form-control" ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+    </div>
+  </form>
+</div>
+
+<div class="col-sm-8 col-md-9">
+  <!--Body content-->
+  <div class="list-group phones">
+    <div ng-repeat="phone in phones | filter:query | orderBy:orderProp"
+         class="list-group-item text-center phone-listing">
+      <a ng-href="#/phones/{{phone.id}}" class="thumb">
+        <img ng-src="{{phone.imageUrl}}">
+      </a>
+
+      <a ng-href="#/phones/{{phone.id}}" ng-bind="phone.name"></a>
+      <p ng-bind="phone.snippet"></p>
+    </div>
+  </div>
+</div>
