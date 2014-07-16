@@ -1,6 +1,14 @@
 {
-  "name": "vanangular-directives",
-  "private": true,
+  "name": "vangularjs-meetup-july-16-2014",
+  "version": "0.0.0",
+  "description": "AngularJS July Meetup: Directives Workshop",
+  "author": "AngularJS Vancouver <http://www.meetup.com/vanangularJS>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vangularjs/vangularjs-meetup-july-16-2014.git"
+  },
+
   "dependencies": {
     "angular": "~1.2.20",
     "angular-route": "~1.2.20",
