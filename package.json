@@ -1,0 +1,12 @@
+{
+  "name": "vanangular-directives",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vangularjs/vangularjs-meetup-july-16-2014.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.8.0"
+  }
+}
