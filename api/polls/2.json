@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "question": "What is your preferred Android version?",
+    "answers": [{
+        "id": 1,
+        "text": "Gingerbread"
+    }, {
+        "id": 2,
+        "text": "Ice Cream Sandwich"
+    }, {
+        "id": 3,
+        "text": "JellyBean"
+    }, {
+        "id": 4,
+        "text": "KitKat"
+    }]
+}
+

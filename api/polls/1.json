@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "question": "What is your preferred device manufacturer?",
+    "answers": [{
+        "id": 1,
+        "text": "Motorola"
+    }, {
+        "id": 2,
+        "text": "Dell"
+    }, {
+        "id": 3,
+        "text": "Samsung"
+    }, {
+        "id": 4,
+        "text": "LG"
+    }, {
+        "id": 5,
+        "text": "HTC"
+    }]
+}
