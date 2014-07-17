@@ -1,3 +1,4 @@
+// app.js
 'use strict';
 
 angular.module('TestApp', [
@@ -6,7 +7,11 @@ angular.module('TestApp', [
     'ngAnimate',
 
     'phoneCtrl',
-    'phoneFilter'
+    'phoneFilter',
+
+    'pollCtrl',
+    'pollDirective',
+    'pollAnswer'
 ])
 .config(function($routeProvider) {
     $routeProvider.otherwise({

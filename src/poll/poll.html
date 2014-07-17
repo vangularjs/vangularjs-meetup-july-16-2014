@@ -1,0 +1,6 @@
+<!-- poll.html -->
+<h3>{{poll.question}}</h3>
+
+<div poll-answer ng-repeat="answer in poll.answers" answer="answer.id">
+    {{answer.text}}
+</div>
